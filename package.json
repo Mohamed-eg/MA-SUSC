@@ -1,6 +1,6 @@
 {
   "name": "future-youth",
-  "homepage":"https://mohamed-eg.github.io/MA-form/",
+  "homepage": "https://mohamed-eg.github.io/MA-SUSC/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animejs": "^3.2.1",
     "firebase": "^9.14.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.40.0",
@@ -20,9 +21,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
