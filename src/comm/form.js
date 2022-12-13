@@ -28,7 +28,7 @@ export default function FormR() {
     formState: { errors },
     handleSubmit,
   } = useForm();
-  const onSubmit = (date, e) => {
+  const onSubmit = (date) => {
     document.getElementById("mainForm").style.visibility = "hidden";
     document.getElementById("chicked").style.display = "block";
     console.log(date);
@@ -43,9 +43,7 @@ export default function FormR() {
     <div>
       <div id="chicked" style={{ display: "none" }}>
         <CheckIcon
-          size="large"
           sx={{
-            width: 900,
             color: "success.main",
           }}
         />
@@ -141,20 +139,17 @@ export default function FormR() {
             <WorkspacePremiumIcon
               sx={{ color: "action.active", mr: 1, my: 0.5 }}
             />
-            <FormControl fullWidth>
-              <InputLabel id="demo-simple-select-label">
+            <FormControl fullWidth variant="standard">
+              <InputLabel id="demo-simple-select-standard-label">
                 Academic Level
               </InputLabel>
               <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
+                labelId="demo-simple-select-standard-label"
+                id="demo-simple-select-standard"
                 value={Level}
                 label="Academic Level"
                 onChange={handleChange}
                 name="level"
-                {...register("level", {
-                  required: true,
-                })}
               >
                 <MenuItem value={"First"}>First</MenuItem>
                 <MenuItem value={"Second"}>Second</MenuItem>

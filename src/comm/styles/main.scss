@@ -28,9 +28,6 @@
             display: block;
             color: #ff1500;
         }
-       .css-1nylpq2{
-            margin: 0px 10px;
-        }
     }
     #submit-but{
     background:#00a5ce ;
@@ -42,25 +39,21 @@
     font-weight: 600;
     cursor: pointer;
 }
+#demo-simple-select{
+    color: #18d100;
+}
 #chicked{
     color: #18d100;
-    font-size: 70px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     svg{
-        font-size: 70px;
-    }
-    path{
-        font-size: 70px;
+        font-size: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
 }
 #submit-but:hover{
     background: #1dcaff;
     box-shadow: 0 0 3px 2px #57d8ff;
-}
-    img{
-    width: 100%;
 }
 }
