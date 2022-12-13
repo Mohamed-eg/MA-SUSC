@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MuiContainer-root{
+    height: 100vh;
+    width: 100% !important;
+    display: flex  !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .MA-logo{
+        width: 100px;
+    }
+}
+.MuiContainer-maxWidthSm{
+    height: min-content;
+    background: #fff;
+    max-height: 100vh ;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0px,inset 0 0 5px 0px;
+    position: relative;
+    z-index: 3;
+    form{
+        max-height: 100vh ;
+        p{
+            display: block;
+            color: #ff1500;
+        }
+       .css-1nylpq2{
+            margin: 0px 10px;
+        }
+    }
+    #submit-but{
+    background:#00a5ce ;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#chicked{
+    color: #18d100;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    svg{
+        font-size: 70px;
+    }
+    path{
+        font-size: 70px;
+    }
+}
+#submit-but:hover{
+    background: #1dcaff;
+    box-shadow: 0 0 3px 2px #57d8ff;
+}
+    img{
+    width: 100%;
+}
+}

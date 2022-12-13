@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.MuiContainer-root {
+  height: 100vh;
+  width: 100% !important;
+  display: -webkit-box  !important;
+  display: -ms-flexbox  !important;
+  display: flex  !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.MuiContainer-root .MA-logo {
+  width: 100px;
+}
+
+.MuiContainer-maxWidthSm {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background: #fff;
+  max-height: 100vh;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 5px 0px,inset 0 0 5px 0px;
+          box-shadow: 0 0 5px 0px,inset 0 0 5px 0px;
+  position: relative;
+  z-index: 3;
+}
+
+.MuiContainer-maxWidthSm form {
+  max-height: 100vh;
+}
+
+.MuiContainer-maxWidthSm form p {
+  display: block;
+  color: #ff1500;
+}
+
+.MuiContainer-maxWidthSm form .css-1nylpq2 {
+  margin: 0px 10px;
+}
+
+.MuiContainer-maxWidthSm #submit-but {
+  background: #00a5ce;
+  padding: 8px;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.MuiContainer-maxWidthSm #chicked {
+  color: #18d100;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.MuiContainer-maxWidthSm #chicked svg {
+  font-size: 70px;
+}
+
+.MuiContainer-maxWidthSm #chicked path {
+  font-size: 70px;
+}
+
+.MuiContainer-maxWidthSm #submit-but:hover {
+  background: #1dcaff;
+  -webkit-box-shadow: 0 0 3px 2px #57d8ff;
+          box-shadow: 0 0 3px 2px #57d8ff;
+}
+
+.MuiContainer-maxWidthSm img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

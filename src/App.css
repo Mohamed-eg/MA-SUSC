@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background: url(./img/castingjpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App::after{
+  content: "felwnme;wc";
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  backdrop-filter: hue-rotate(180deg) blur(5px);
+  background-color: transparent;
+}
+
+
