@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MA-SUSC/static/css/main.eb7c461b.css",
+    "main.js": "/MA-SUSC/static/js/main.2a80c2e5.js",
+    "static/js/787.871a543a.chunk.js": "/MA-SUSC/static/js/787.871a543a.chunk.js",
+    "static/media/castingjpg.jpg": "/MA-SUSC/static/media/castingjpg.eeb7da067374dda1c4b0.jpg",
+    "static/media/Logo-MA.png": "/MA-SUSC/static/media/Logo-MA.af190f7b01fd4fb3a1a4.png",
+    "index.html": "/MA-SUSC/index.html",
+    "main.eb7c461b.css.map": "/MA-SUSC/static/css/main.eb7c461b.css.map",
+    "main.2a80c2e5.js.map": "/MA-SUSC/static/js/main.2a80c2e5.js.map",
+    "787.871a543a.chunk.js.map": "/MA-SUSC/static/js/787.871a543a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb7c461b.css",
+    "static/js/main.2a80c2e5.js"
+  ]
+}
